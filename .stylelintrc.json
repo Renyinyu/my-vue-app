@@ -1,0 +1,19 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-prettier"],
+  "rules": {
+    "function-no-unknown": null,
+    "no-empty-source": true
+  },
+  "overrides": [
+    {
+      "files": ["*.vue", "**/*.vue", "*.html", "**/*.html"],
+      "customSyntax": "postcss-html",
+      "extends": ["stylelint-config-html"]
+    },
+    {
+      "files": ["*.scss", "**/*.scss"],
+      "customSyntax": "postcss-scss",
+      "extends": ["stylelint-config-standard", "stylelint-config-recommended-vue"]
+    }
+  ]
+}

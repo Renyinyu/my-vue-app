@@ -1,0 +1,15 @@
+root = true
+
+[*]
+end_of_line = lf
+# 缩进风格
+indent_style = space
+# 末行留空
+insert_final_newline = true
+charset = utf-8
+end_of_line = lf
+# 去除行首的任意空白字符
+trim_trailing_whitespace = true
+
+[*.{ts,js,vue,css}]
+indent_size = 2

@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-
-const a = 2
 </script>
 
 <template>
@@ -13,7 +11,6 @@ const a = 2
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style lang="scss" scoped>

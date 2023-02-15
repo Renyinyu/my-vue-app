@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+
+const a = 2
 </script>
 
 <template>
@@ -20,6 +22,5 @@ import HelloWorld from './components/HelloWorld.vue'
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
-  {}
 }
 </style>

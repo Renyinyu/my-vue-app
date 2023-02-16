@@ -3,6 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.io/Renyinyu/my-vue-app",
+  "repository": {
+    "url": "https://github.com/Renyinyu/my-vue-app"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
